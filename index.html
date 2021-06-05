@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "./css/styles.css">
+    
+    <title>Document</title>
+</head>
+<body onload = "cInfoIsChecked()">
+    <div class = "navBar">
+        <div id = "active">Client</div>
+        <div>Product</div>
+        <div>Cart</div>
+
+        <!-- <button id = "client" onclick="navClient()">client</button>
+        <button id = "products" onclick="navProduct()">Products</button>
+        <button id = "cart" onclick="navCart()">Cart</button> -->
+    </div>
+    
+    <div class = "format">
+        <h1 id = title>Sebastiens Premium Groceries</h1>
+        <h3>Client Information</h3>
+        <p>Do you have any product preferences? </p>
+        
+        <input type = "checkbox" id = "vegetarian" class = "cInfo" value = "vegetarian">
+        <label>Vegetarian</label><br/>
+        <input type = "checkbox" id = "glutenFree" class = "cInfo" value="glutenFree">
+        <label>Gluten Free</label><br/>
+        <input type = "checkbox" id = "lactoseIntolerant" class = "cInfo" value="lactoseIntolerant">
+        <label>Lactose Intolerant</label><br/>
+        <input type = "checkbox" id = "organic" class = "cInfo" value="organic">
+        <label>Organic Products</label><br/><br/>
+        <button id = nextPage onclick="cInfoSelect()">Next Page</button>
+    
+    </div>
+    <footer>
+        <p>Website designed by: Sebstien Leduc</p>
+    </footer>
+    <script src = ./javascript/main.js></script>
+</body>
+</html>

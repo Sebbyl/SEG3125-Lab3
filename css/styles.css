@@ -1,0 +1,65 @@
+body{
+    margin:0;
+    background-color: rgb(75,178,106);
+}
+.navBar{
+    background-color: rgb(75,178,106);
+    overflow: hidden;
+    height: 50px;
+}
+button{
+    height:4em;
+    width:auto;
+    background-color: rgb(75,178,106);
+    color:white;
+}
+.navBar div{
+    float:left;
+    background-color: rgb(114,201,140);
+    width:5em;
+    height:60%;
+    padding: 10px;
+    font-size: 17px;
+    text-align: center;
+    border: none;
+    border-color: green;
+    color:white;
+
+}
+#active{
+    background-color: rgb(103,127,110);
+    border-color: lightgray ;
+    font-weight:bold;
+    color:whitesmoke
+}
+
+
+@font-face {
+    font-family: "signature";
+    src: url(Pattaya-Regular.ttf)
+}
+footer{
+    padding:20px;
+    font-family:"signature";
+    font-size:10px;
+    color:white;
+}
+input[type=checkbox]{
+    transform: scale(1.5);
+}
+.format{
+    padding:20px;
+    padding-left: 100px;
+    padding-right:100px;
+    background-color:whitesmoke;
+    
+}
+#title{
+    text-align:center;
+    border-bottom-style: groove;
+    border-color: rgb(114,201,140);
+    width:auto;
+}
+/* .navBar a:active{
+    background-color: lightcoral;
+} */
