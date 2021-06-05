@@ -59,14 +59,13 @@ function productLoad(){
              var lactoseIntolerant = document.getElementById("lactoseIntolerant")
              var glutenFree = document.getElementById("glutenFree")
              var vegetarian = document.getElementById("vegetarian")
+             var nutFree = document.getElementById("nutFree")
              lactoseIntolerant.style.display = "none"
              glutenFree.style.display = "none"
              vegetarian.style.display = "none"
-
+            nutFree.style.display = "none"
           }
          else{
-            
-
             cur.style.display = "none"
         }
          
@@ -140,6 +139,14 @@ function cartLoad(){
         }
         else if (item == "bagel"){
             cur = "Bagel"
+            price = 3
+        }
+        else if (item == "peanutButter"){
+            cur = "Peanut Butter"
+            price = 13
+        }
+        else if (item == "peanut"){
+            cur = "Peanuts"
             price = 3
         }
         totPrice = totPrice + price
