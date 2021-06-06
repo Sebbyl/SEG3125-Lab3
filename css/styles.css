@@ -3,9 +3,10 @@ body{
     background-color: rgb(75,178,106);
 }
 .navBar{
-    background-color: rgb(75,178,106);
+    
     overflow: hidden;
     height: 50px;
+    width:500px;
 }
 button{
     height:4em;
@@ -17,14 +18,24 @@ button{
     float:left;
     background-color: rgb(114,201,140);
     width:5em;
-    height:60%;
+    height:50%;
     padding: 10px;
     font-size: 17px;
     text-align: center;
-    border: none;
-    border-color: green;
     color:white;
+    margin:5px;
+    border-radius: 0px 50px 50px 0px;
+}
 
+.arrowRight{
+        border: solid rgb(114,201,140);
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+          
+      
 }
 #active{
     background-color: rgb(103,127,110);

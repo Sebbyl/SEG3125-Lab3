@@ -8,20 +8,24 @@
     
     <title>Document</title>
 </head>
-<body onload="productLoad()">
-    <div class = "navBar">
-        <div>Client</div>
-        <div id = "active">Product</div>
-        <div>Cart</div>
 
-        <!-- <button id = "client" onclick="navClient()">client</button>
-        <button id = "products" onclick="navProduct()">Products</button>
-        <button id = "cart" onclick="navCart()">Cart</button> -->
-    </div>
+<body onload="productLoad()">
+    <h1 id = title>Sebastiens Premium Groceries</h1>
+    
     <div class = "format">
-        <h1 id = title>Sebastiens Premium Groceries</h1>
+        <div class = "navBar">
+            <div>Client</div>
+            
+            <div id = "active">Product</div>
+            
+            <div>Cart</div>
+    
+            <!-- <button id = "client" onclick="navClient()">client</button>
+            <button id = "products" onclick="navProduct()">Products</button>
+            <button id = "cart" onclick="navCart()">Cart</button> -->
+        </div>
         <h3>Products for you</h3>
-        <p>Here are the available products based on your preferences</p>
+        <p>Here are the available products based on your preferences:</p>
         <div id = lactoseIntolerant>
         <input type = "checkbox" id = "milk" value = "milk" class = "product">
         <label>Milk - $8</label><br/>
